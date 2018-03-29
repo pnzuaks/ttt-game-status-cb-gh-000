@@ -42,10 +42,8 @@ def full?(board)
   board.each do |square|
     if square != "" || square != " "
       return true
-    else 
-      return false
-      
     end
+    return false
   end
 end
   
