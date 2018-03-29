@@ -49,9 +49,15 @@ def full?(board)
   end
 end
   
+def draw?(board)
+end
   
 
+def over?(board)
+end
 
+def winner?(board)
+end
 
 
 
