@@ -32,10 +32,8 @@ def won?(board)
         winning_combo = win_combo
       elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
         winning_combo = win_combo
-
-    
       else
-        return winning_combo
+        return false
       end
  
   end
