@@ -39,6 +39,9 @@ end
 
 
 def full?(board)
+  board.each do |square|
+    
+  end
 end
   
   
