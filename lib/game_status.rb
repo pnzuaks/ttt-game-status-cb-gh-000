@@ -39,13 +39,9 @@ end
 
 
 def full?(board)
-  board.each do |square|
-    if square != nil || square != " "
-      return true
-    end
-    return false
-  end
+    board.all? {|square| square == "X" || square == "O" }
 end
+  
   
 def draw?(board)
   if full?(board) && won?(board) == false
