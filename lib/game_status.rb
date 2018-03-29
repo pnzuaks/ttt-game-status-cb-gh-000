@@ -18,7 +18,7 @@ WIN_COMBINATIONS = [
   
 
 def won?(board)
-  winning_combo = -1
+ 
   WIN_COMBINATIONS.each do |win_combo|
       win_index_1 = win_combo[0]
       win_index_2 = win_combo[1]
@@ -34,8 +34,8 @@ def won?(board)
         return win_combo
       end
   end
+      return false
   
-  # if no winning combos found just return false
 end
 
 
