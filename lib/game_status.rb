@@ -63,7 +63,7 @@ def over?(board)
 end
 
 def winner?(board)
-  if won?(board) == false 
+  if draw?(board)
     return nil
   # elsif full?(board) && draw?(board) == false && over?(board)
   #   return "derp"
